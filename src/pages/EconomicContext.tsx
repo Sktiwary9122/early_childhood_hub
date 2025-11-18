@@ -73,7 +73,7 @@ const EconomicContext = () => {
       <section className="relative h-96 bg-gradient-to-r from-teal-600 to-slate-700 overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://source.unsplash.com/random/1920x1080/?housing,construction,family"
+            src="https://images.pexels.com/photos/5699456/pexels-photo-5699456.jpeg?auto=compress&cs=tinysrgb&w=1920"
             alt="Economic context"
             className="w-full h-full object-cover opacity-20"
           />
@@ -103,7 +103,7 @@ const EconomicContext = () => {
             </p>
             <div className="bg-slate-50 border-l-4 border-teal-600 p-6 rounded-r-lg my-6">
               <img
-                src="https://source.unsplash.com/random/800x400/?poverty,family,support"
+                src="https://images.pexels.com/photos/6936460/pexels-photo-6936460.jpeg?auto=compress&cs=tinysrgb&w=800"
                 alt="Bronfenbrenner's ecological model"
                 className="w-full rounded-xl shadow-md mb-4"
               />
@@ -132,7 +132,7 @@ const EconomicContext = () => {
                 </p>
               </div>
               <img
-                src="https://source.unsplash.com/random/600x800/?child,education,learning"
+                src="https://images.pexels.com/photos/8364026/pexels-photo-8364026.jpeg?auto=compress&cs=tinysrgb&w=600&h=800"
                 alt="Impact on children"
                 className="rounded-xl shadow-lg"
               />

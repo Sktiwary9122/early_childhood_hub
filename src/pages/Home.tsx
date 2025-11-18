@@ -14,7 +14,7 @@ const Home = () => {
       <section className="relative h-[600px] bg-gradient-to-br from-teal-500 to-slate-700 overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://source.unsplash.com/random/1920x1080/?diverse,children,playing,together"
+            src="https://images.pexels.com/photos/8613089/pexels-photo-8613089.jpeg?auto=compress&cs=tinysrgb&w=1920"
             alt="Diverse children playing together"
             className="w-full h-full object-cover opacity-30"
           />
@@ -142,7 +142,13 @@ const Home = () => {
               >
                 <Link to={context.path} className="block bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all">
                   <img
-                    src={`https://source.unsplash.com/random/600x400/?${context.image}`}
+                    src={
+                      context.path === '/economic' ? 'https://images.pexels.com/photos/8613314/pexels-photo-8613314.jpeg?auto=compress&cs=tinysrgb&w=600' :
+                      context.path === '/social' ? 'https://images.pexels.com/photos/7551662/pexels-photo-7551662.jpeg?auto=compress&cs=tinysrgb&w=600' :
+                      context.path === '/cultural' ? 'https://images.pexels.com/photos/8612988/pexels-photo-8612988.jpeg?auto=compress&cs=tinysrgb&w=600' :
+                      context.path === '/health' ? 'https://images.pexels.com/photos/8613317/pexels-photo-8613317.jpeg?auto=compress&cs=tinysrgb&w=600' :
+                      'https://images.pexels.com/photos/6941001/pexels-photo-6941001.jpeg?auto=compress&cs=tinysrgb&w=600'
+                    }
                     alt={context.title}
                     className="w-full h-48 object-cover"
                   />

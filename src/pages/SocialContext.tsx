@@ -51,7 +51,7 @@ const SocialContext = () => {
       <section className="relative h-96 bg-gradient-to-r from-slate-600 to-teal-700 overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://source.unsplash.com/random/1920x1080/?rural,australian,landscape"
+            src="https://images.pexels.com/photos/8612990/pexels-photo-8612990.jpeg?auto=compress&cs=tinysrgb&w=1920"
             alt="Social context"
             className="w-full h-full object-cover opacity-20"
           />
@@ -81,7 +81,7 @@ const SocialContext = () => {
             </p>
             <div className="bg-slate-50 border-l-4 border-slate-600 p-6 rounded-r-lg my-6">
               <img
-                src="https://source.unsplash.com/random/800x400/?community,center,people"
+                src="https://images.pexels.com/photos/8613094/pexels-photo-8613094.jpeg?auto=compress&cs=tinysrgb&w=800"
                 alt="Social connections"
                 className="w-full rounded-xl shadow-md mb-4"
               />
@@ -110,7 +110,7 @@ const SocialContext = () => {
                 </p>
               </div>
               <img
-                src="https://source.unsplash.com/random/600x800/?parent,child,reading"
+                src="https://images.pexels.com/photos/8613315/pexels-photo-8613315.jpeg?auto=compress&cs=tinysrgb&w=600&h=800"
                 alt="Parent and child"
                 className="rounded-xl shadow-lg"
               />

@@ -51,7 +51,7 @@ const HealthContext = () => {
       <section className="relative h-96 bg-gradient-to-r from-teal-700 to-slate-600 overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://source.unsplash.com/random/1920x1080/?mental,health,wellbeing,children"
+            src="https://images.pexels.com/photos/8613317/pexels-photo-8613317.jpeg?auto=compress&cs=tinysrgb&w=1920"
             alt="Health and wellbeing"
             className="w-full h-full object-cover opacity-20"
           />
@@ -81,7 +81,7 @@ const HealthContext = () => {
             </p>
             <div className="bg-slate-50 border-l-4 border-teal-600 p-6 rounded-r-lg my-6">
               <img
-                src="https://source.unsplash.com/random/800x400/?comforting,child,support"
+                src="https://images.pexels.com/photos/8363028/pexels-photo-8363028.jpeg?auto=compress&cs=tinysrgb&w=800"
                 alt="Supporting children"
                 className="w-full rounded-xl shadow-md mb-4"
               />
@@ -110,7 +110,7 @@ const HealthContext = () => {
                 </p>
               </div>
               <img
-                src="https://source.unsplash.com/random/600x800/?doctor,visit,child"
+                src="https://images.pexels.com/photos/8460157/pexels-photo-8460157.jpeg?auto=compress&cs=tinysrgb&w=600&h=800"
                 alt="Healthcare support"
                 className="rounded-xl shadow-lg"
               />

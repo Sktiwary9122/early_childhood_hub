@@ -51,7 +51,7 @@ const CrisisContext = () => {
       <section className="relative h-96 bg-gradient-to-r from-amber-700 to-slate-800 overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://source.unsplash.com/random/1920x1080/?emergency,disaster,safety,children"
+            src="https://images.pexels.com/photos/6941001/pexels-photo-6941001.jpeg?auto=compress&cs=tinysrgb&w=1920"
             alt="Crisis and emergency"
             className="w-full h-full object-cover opacity-20"
           />
@@ -81,7 +81,7 @@ const CrisisContext = () => {
             </p>
             <div className="bg-slate-50 border-l-4 border-amber-700 p-6 rounded-r-lg my-6">
               <img
-                src="https://source.unsplash.com/random/800x400/?firefighter,helping,child"
+                src="https://images.pexels.com/photos/6941003/pexels-photo-6941003.jpeg?auto=compress&cs=tinysrgb&w=800"
                 alt="Emergency support"
                 className="w-full rounded-xl shadow-md mb-4"
               />
@@ -110,7 +110,7 @@ const CrisisContext = () => {
                 </p>
               </div>
               <img
-                src="https://source.unsplash.com/random/600x800/?stormy,weather,safety"
+                src="https://images.pexels.com/photos/8613091/pexels-photo-8613091.jpeg?auto=compress&cs=tinysrgb&w=600&h=800"
                 alt="Crisis impact"
                 className="rounded-xl shadow-lg"
               />

@@ -63,7 +63,7 @@ const DataInsights = () => {
   };
 
   return (
-    <section className="bg-gradient-to-b from-slate-50 to-white py-20">
+    <section className="bg-gradient-to-b from-slate-50 to-white py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div {...fadeIn} className="text-center mb-16">
           <h2 className="text-4xl font-bold text-slate-800 mb-4">Data Insights</h2>

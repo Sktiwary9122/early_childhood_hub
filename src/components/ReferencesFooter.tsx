@@ -128,7 +128,7 @@ const ReferencesFooter = () => {
   ];
 
   return (
-    <footer className="bg-slate-900 text-slate-100 py-20">
+    <footer className="bg-slate-900 text-slate-100 py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div {...fadeIn}>
           <div className="flex items-center justify-center gap-3 mb-12">

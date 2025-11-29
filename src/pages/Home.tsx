@@ -168,7 +168,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -182,11 +182,17 @@ const Home = () => {
         </motion.div>
       </section>
 
-      <MediaGallery />
+      <section className="py-0">
+        <MediaGallery />
+      </section>
 
-      <DataInsights />
+      <section className="py-0">
+        <DataInsights />
+      </section>
 
-      <ConceptMap />
+      <section className="py-0">
+        <ConceptMap />
+      </section>
 
       <ReferencesFooter />
     </div>

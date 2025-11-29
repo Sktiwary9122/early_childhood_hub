@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { CheckCircle, ExternalLink, BookOpen, Video } from 'lucide-react';
 import { useState } from 'react';
+import ReferencesFooter from '../components/ReferencesFooter';
 
 const EconomicContext = () => {
   const [openAccordion, setOpenAccordion] = useState<number | null>(null);
@@ -316,6 +317,8 @@ const EconomicContext = () => {
           </motion.div>
         </div>
       </section>
+
+      <ReferencesFooter />
     </div>
   );
 };

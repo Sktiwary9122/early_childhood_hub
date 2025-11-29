@@ -1,6 +1,10 @@
 import { motion } from 'framer-motion';
 import { BookOpen, Users, Video } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import MediaGallery from '../components/MediaGallery';
+import DataInsights from '../components/DataInsights';
+import ConceptMap from '../components/ConceptMap';
+import ReferencesFooter from '../components/ReferencesFooter';
 
 const Home = () => {
   const fadeIn = {
@@ -177,6 +181,14 @@ const Home = () => {
           </p>
         </motion.div>
       </section>
+
+      <MediaGallery />
+
+      <DataInsights />
+
+      <ConceptMap />
+
+      <ReferencesFooter />
     </div>
   );
 };

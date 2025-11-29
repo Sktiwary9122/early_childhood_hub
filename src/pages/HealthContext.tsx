@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { CheckCircle, ExternalLink, BookOpen, Video } from 'lucide-react';
+import ReferencesFooter from '../components/ReferencesFooter';
 
 const HealthContext = () => {
   const fadeIn = {
@@ -281,6 +282,8 @@ const HealthContext = () => {
           </motion.div>
         </div>
       </section>
+
+      <ReferencesFooter />
     </div>
   );
 };
